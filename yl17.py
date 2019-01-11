@@ -24,4 +24,7 @@ while inime==False:
             print("Võitsid!")
     else:
         print("Sellist käiku pole olemas!")
+    end=input("Kas tahad veel mängida? (jah/ei)")
+    if end=="ei":
+        exit()
     inime = False
