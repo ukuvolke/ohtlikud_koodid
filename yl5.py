@@ -1,5 +1,5 @@
-print("Hello im a calculator, i will convert the laue of your kroons to euros")
-kroons=float(input("How many kroons do you have?"))
+print("Tere, ma olen kalkulaator ja arvtan su kroonid eurodeks.")
+kroons=float(input("Mitu krooni sul on?"))
 euros=kroons/15.6466
 as_a_string=str(euros)
-print("That is"+ as_a_string + " euros." )
+print("See teeb "+ as_a_string + " eurot." )

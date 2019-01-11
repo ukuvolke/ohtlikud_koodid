@@ -1,11 +1,11 @@
-name=str(input("Hello what is your name?").capitalize())
-home=str(input("Hello "+name+"! Where do you live? ").lower())
-if (home=="saaremaa") or (home=="saaremall"):
-    print("Cool, me too!")
-age=int(input("How old are you?"))
+name=str(input("Tere, mis su nimi on?").capitalize())
+home=str(input("Tere "+name+"! Kus sa elad? ").lower())
+if (home=="saaremaa") or (home=="saaremaal"):
+    print("Äge, mina ka!")
+age=int(input("Kui vana sa oled?"))
 if age<18:
-    print(name+", You are too young to drive a car!")
+    print(name+", Sa oled liiga noor, et autoga sõita!")
 elif age==18:
-    print("Congratulations for being an adult, "+name+"!" )
+    print("Palju õnne täiskasvanuks saamise puhul, "+name+"!" )
 else:
-    print("You can drive a car!")
+    print("Sa võid autoga sõita!")

@@ -1,9 +1,9 @@
-a=int(input("Enter value a: "))
-b=int(input("Enetr value b: "))
+a=int(input("Sisesta a väärtus: "))
+b=int(input("Sisesta b väärtus: "))
 if a > b:
-    print("B is smaller")
+    print("B on väiksem")
 elif a == b:
-    print("Values are equal")
+    print("väärtused on võrdsed")
 else:
-    print("A is smaller")
+    print("A on väiksem")
     

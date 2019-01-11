@@ -1,5 +1,5 @@
-year=int(input("Enter a year: "))
+year=int(input("Sisesta aasta: "))
 if (year %4==0) and not ((year %100==0) and (year %400!=0)):
-    print("That is a leap year")
+    print("See on liigaasta.")
 else:
-    print("That is not a leap year")
+    print("See ei ole liigaasta.")

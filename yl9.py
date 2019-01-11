@@ -1,4 +1,4 @@
-print(" Hello. This is a  triangle type determination magic machine")
+print(" Tere, see on kolmnurga tüübi arvutamise masin.")
 a=float(input("sisesta külje a pikkus: "))
 b=float(input("sisesta külje b pikkus: "))
 c=float(input("sisesta külje c pikkus: "))

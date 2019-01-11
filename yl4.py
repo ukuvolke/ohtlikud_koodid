@@ -1,9 +1,9 @@
-a= int(input("Please enter digit no. 1: "))
-b= int(input("Please enter digit no. 2: "))
-c= int(input("Please enter digit no. 3: "))
+a= int(input("Sisesta arv 1: "))
+b= int(input("Sisesta arv 2: "))
+c= int(input("Sisesta arv 3: "))
 if (a > b) and  ( a > c):
-    print("Digit 1 is the largest.")
+    print("Arv 1 on suurim.")
 elif (b > a) and (b>c):
-    print("Digit 2 is the largest.")
+    print("Arv a on suurim.")
 else:
-    print("Digit 3 is the largest.")
+    print("Arv 3 on suurim.")

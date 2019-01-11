@@ -1,5 +1,5 @@
-digit=int(input("Enter a digit and i will tell yo if it divisible by 2 or not: "))
+digit=int(input("Sisesta number ja ma ütlen, kas see on paariarv või mitte: "))
 if (digit%2)==0:
-    print("The number is divisible by 2")
+    print("See on paarisarv.")
 else:
-    print("The number IS NOT divisible by 2")
+    print("See ei ole paariarv.")
