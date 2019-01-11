@@ -4,7 +4,7 @@ inime=False
 while inime==False:
     comp=valikud[randint(0,2)]
     
-    inime=input("Sisesta kivi, paber või käärid")
+    inime=input("Sisesta kivi, paber või käärid: ")
     if comp==inime:
         print("Viik!")
     elif inime == "kivi":
@@ -24,7 +24,7 @@ while inime==False:
             print("Võitsid!")
     else:
         print("Sellist käiku pole olemas!")
-    end=input("Kas tahad veel mängida? (jah/ei)")
+    end=input("Kas tahad veel mängida? (jah/ei) ")
     if end=="ei":
         exit()
     inime = False
